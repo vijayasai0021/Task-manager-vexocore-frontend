@@ -1,12 +1,33 @@
-# React + Vite
+# Task Manager Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-stack task manager application built for the Vexocore IT Services Pvt. Ltd. internship assignment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **Live Demo Links**
+* **Frontend (Vercel):** https://task-manager-vexocore-frontend-h7k1.vercel.app/login
+* **Backend (Render):** https://task-manager-vexocore.onrender.com
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### **Features**
+- [x] User Signup and Login with JWT Authentication
+- [x] Add, Edit, and Delete Tasks
+- [x] Toggle Task Status (Pending/Completed) with a Checkbox
+- [x] Secure, User-Specific Task Lists
+- [x] Responsive and Clean User Interface
+
+---
+
+### **Tech Stack**
+* **Frontend:** React.js, Vite, Axios
+* **Backend:** Node.js, Express.js, MongoDB (with Mongoose)
+* **Authentication:** JSON Web Tokens (JWT)
+* **Deployment:** Vercel (Frontend), Render (Backend)
+
+---
+
+### **How to Run Locally**
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm run dev` to start the local development server.
